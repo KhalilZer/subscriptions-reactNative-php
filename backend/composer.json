@@ -1,0 +1,26 @@
+{
+    "name": "khalilzerzour/backend",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Khalilzerzour\\Backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "khalil AIR",
+            "email": "khalilzerzour100@gmail.com"
+        }
+    ],
+    "require": {
+        "whapi-cloud/whatsapp-api-sdk-php": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/Whapi-Cloud/whatsapp-api-sdk-php"
+        }
+    ],
+    "minimum-stability": "dev", 
+    "prefer-stable": true     
+}
