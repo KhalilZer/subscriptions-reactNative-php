@@ -61,7 +61,7 @@ To start the backend server and set up the database:
    ```
 4. To create the database and tables, navigate to:
    ```sh
-   backend/config/setup_db.php
+   cd backend/config
    ```
    and run:
    ```sh
@@ -69,7 +69,11 @@ To start the backend server and set up the database:
    ```
 5. To load initial data, re-run:
    ```sh
-   php backend/config/setup_db.php
+   php backend/config
+   ```
+    and run:
+   ```sh
+   php LoadData.php
    ```
 6. Start the PHP server:
    ```sh
